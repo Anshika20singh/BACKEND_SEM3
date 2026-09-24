@@ -3,7 +3,7 @@ const app=express();
 const PORT=3000
 
 const logMiddleware=(req,res,next)=>{
-    //  req.name="Anshika"
+    //  req.name="Anshika Singh"
     console.log("Req url:",req.url,"Time: ", new Date().toLocaleString());
     // res.send("Hello from middleware")
     next();
@@ -19,7 +19,7 @@ app.get("/",(req,res)=>{
 
 
 app.get("/about",(req,res)=>{
-    console.log("Abotpage")
+    console.log("Aboutpage")
     res.send("Heyyy from about page")
 })
 
