@@ -13,14 +13,14 @@ app.use(logMiddleware);
 
 app.get("/",(req,res)=>{
     console.log("Homepage")
-    res.send("Hello From server")
+    res.send("Heyyy From server")
 })
 
 
 
 app.get("/about",(req,res)=>{
     console.log("Abotpage")
-    res.send("Hello from about page")
+    res.send("Heyyy from about page")
 })
 
 app.listen(PORT,()=>{
