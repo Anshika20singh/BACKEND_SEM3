@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 
 const users = [
-    { id: 1, name: "Devendra", email: "GZDlC@example.com" },
-    { id: 2, name: "Ravi", email: "ravi@com" },
+    { id: 1, name: "Kartik", email: "GZDlC@example.com" },
+    { id: 2, name: "Shivam", email: "ravi@com" },
     { id: 3, name: "alex", email: "alex@com" },
     { id: 4, name: "vasu", email: "vasu@com" },
 ];

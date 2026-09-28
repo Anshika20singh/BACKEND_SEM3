@@ -7,11 +7,11 @@ const PORT=3000
 app.use(express.json());//middleware
 
 const students=[
-    {rollNo:1, name:"Anshika", section:"BCA-D"},
-    {rollNo:2, name:"tamanna", section:"BCA-D"},
-    {rollNo:3, name:"nitika", section:"BCA-D"},
-    {rollNo:4, name:"ankur", section:"BCA-D"},
-    {rollNo:5, name:"akshaj", section:"BCA-D"}
+    {rollNo:1, name:"Anshika Singh", section:"BCA-A"},
+    {rollNo:2, name:"tamanna", section:"BCA-A"},
+    {rollNo:3, name:"nitika", section:"BCA-A"},
+    {rollNo:4, name:"ankur", section:"BCA-A"},
+    {rollNo:5, name:"akshaj", section:"BCA-A"}
 ]
 ////////Read Operation
 app.get("/students",(req,res)=>{
