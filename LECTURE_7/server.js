@@ -52,7 +52,7 @@ const server=http.createServer((req, res) => {
     }
     else{
         res.writeHead(404, {"Content-Type": "text/html"});
-        res.write("<h1>404 Page Not Found</h1>");
+        res.write("<h1>404 Page not Found</h1>");
         res.end();
     }
     // res.end("<h1>Your server has send this response</h1>")
