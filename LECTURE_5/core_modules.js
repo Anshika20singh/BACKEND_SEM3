@@ -64,13 +64,13 @@ const dns=require('dns');
 // const hash=crypto.createHash("sha256",salt).update("password").digest("hex");
 // console.log(hash);
 
-// dns.lookup("www.google.com", (err, address, family)=>{  
-//     if(err){
-//         console.log(err);
-//     }else{
-//         console.log(address);
-//         console.log(family);
-//     } 
+dns.lookup("www.google.com", (err, address, family)=>{  
+    if(err){
+        console.log(err);
+    }else{
+        console.log(address);
+        console.log(family);
+    } 
 
     dns.reverse("8.8.8.8", (err, hostnames)=>{
         if(err){
