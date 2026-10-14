@@ -7,8 +7,8 @@ const PORT=3000
 app.use(express.json());//middleware
 
 const students=[
-    {rollNo:1, name:"Anshika Singh", section:"BCA-A"},
-    {rollNo:2, name:"Tamanna Tewatia", section:"BCA-A"},
+    {rollNo:1, name:"Anshika", section:"BCA-A"},
+    {rollNo:2, name:"Tamanna", section:"BCA-A"},
     {rollNo:3, name:"Nitika", section:"BCA-A"},
     {rollNo:4, name:"Ankur", section:"BCA-A"},
     {rollNo:5, name:"Akshaj", section:"BCA-A"}
